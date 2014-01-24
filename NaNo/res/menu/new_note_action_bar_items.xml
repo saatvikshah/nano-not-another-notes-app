@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- Done item -->
+   	<item 
+   	    android:id="@+id/action_done"
+   	    android:title="Done"
+   	    android:icon="@drawable/ic_action_accept"
+   	    android:showAsAction="ifRoom"
+   	    />
+   	
+   	<!-- Pick Background  item -->
+	<item 
+	    android:id="@+id/action_bgchooser"
+   	    android:title="Choose Background"
+   	    android:icon="@drawable/ic_action_edit"
+   	    android:showAsAction="ifRoom"
+	    />
+	
+</menu>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/listview_selector"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+
+    <!-- ListRow Left sied Thumbnail image -->
+
+    <LinearLayout
+        android:id="@+id/lv_thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="5dip"
+        android:background="@drawable/image_bg"
+        android:padding="3dip" >
+
+        <ImageView
+            android:id="@+id/lv_image"
+            android:layout_width="50dip"
+            android:layout_height="50dip"
+            android:src="@drawable/ic_home" />
+    </LinearLayout>
+
+    <!-- Title Of Note -->
+
+    <TextView
+        android:id="@+id/lv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/lv_thumbnail"
+        android:layout_toRightOf="@+id/lv_thumbnail"
+        android:text="Default Text"
+        android:textColor="#040404"
+        android:textSize="15dip"
+        android:textStyle="italic"
+        android:typeface="sans" />
+
+    <!-- Default Summary -->
+
+    <TextView
+        android:id="@+id/lv_content"
+        android:layout_width="fill_parent"
+        android:layout_height="10dp"
+        android:layout_alignBottom="@+id/lv_thumbnail"
+        android:layout_below="@id/lv_title"
+        android:layout_marginTop="1dip"
+        android:layout_toLeftOf="@+id/imageView1"
+        android:layout_toRightOf="@+id/lv_thumbnail"
+        android:text="Default Summary.."
+        android:textColor="#343434"
+        android:textSize="10dip" />
+
+    <!-- Time when note was made -->
+
+    <TextView
+        android:id="@+id/lv_dobnote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/lv_title"
+        android:layout_marginRight="5dip"
+        android:gravity="right"
+        android:text="5:45"
+        android:textColor="#10bcc9"
+        android:textSize="10dip"
+        android:textStyle="bold" />
+
+    <!-- Rightend Arrow -->
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/arrow" />
+
+</RelativeLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- Bluetooth transfer -->
+    <item
+        android:title="Bluetooth Transfer"
+        android:icon="@drawable/ic_action_bluetooth_searching"
+        android:id="@+id/action_bluetooth_transfer"
+        />
+    
+    <!-- Delete -->
+    <item 
+        android:title="Delete"
+        android:icon="@drawable/ic_action_discard"
+        android:id="@+id/action_delete_note"
+        />
+    
+    <!-- Change Profile -->
+    <item 
+        android:title="Change Profile"
+        android:icon="@drawable/ic_action_discard"
+        android:id="@+id/action_change_profile"
+        />
+    
+    <!-- Delete Profile-->
+    <item 
+        android:title="Delete Profile"
+        android:icon="@drawable/ic_action_discard"
+        android:id="@+id/action_delete_profile"
+        />
+    
+    <!-- Add Alarm -->
+    <item 
+        android:title="Add Alarm"
+        android:id="@+id/action_set_alarm"
+        />
+
+</menu>
